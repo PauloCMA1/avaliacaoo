@@ -1,0 +1,210 @@
+#bodytor{
+    height: 100%;
+    background-image: url("Backg.gif");
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+
+}
+.titulo{
+    border: 3px dashed black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+#bodyin{
+    height: 100%;
+    background-image: url("Fundo.png");
+    text-align: center;
+}
+.cabecalho{
+    background-color: brown;
+    border: 6px dashed black; 
+    
+
+}
+.header{
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+
+}
+.header > nav{
+    text-align: left;
+}
+.conteudo{
+    background-color: #00a8ff;
+    border: 5px solid black;
+    background-position: center;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    max-width: 1280px;
+    display: inline-block;
+}
+.esport{
+    width: 90%;
+    border: 5px solid black;
+}
+
+#rodape{
+    background-size: cover;
+    color: #00a8ff;
+    background-color: brown;
+    background-position: center;
+    width: 60%;
+    margin: auto;
+    padding: 1%;
+    margin-top: 10px;
+    border: 3px dashed black;
+}
+.lista{
+    display: flex;
+    margin-right: 5%;
+    background-color: brown;
+    padding: 10px;
+    border: 3px dashed black;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+#bemvindo{
+    display: flex;
+    position: relative;
+   
+}
+.video{
+    width: 37%;
+}
+#menu{
+width: 30px;
+display: flex;
+position: relative;
+top: 40px;
+left: 20px;
+}
+@media screen and (max-width: 820px) {
+    .video{
+        width: 210px;
+        height: 136px;
+    }
+    .lista{
+        margin-right: 30px;
+    }
+}
+.lateral{
+    background-color: brown;
+    text-align: left;
+    width: 50%;
+    max-width: 250px;
+    border: 3px dashed black;
+    margin-bottom: 10px;
+    padding: 8px;
+
+    
+}
+.tabela{
+    text-align: center;
+    width: 100%;
+    background-color: brown;
+    border: "2";
+}
+.lateral input[type=submit]{
+    border: 2px dashed black;
+    cursor: pointer;
+    background-color: #4286f4;
+}
+.galery{
+    margin:auto;
+    width: 640px;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
+ 
+}
+.galery .slide{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery .slide img{
+    width: 19.9%;
+}
+@keyframes animacao{
+    0% { margin-left: 0; }
+    20%{ margin-left: 0; }
+    25%{margin-left: -100%; }
+    45%{margin-left: -100%; }
+    50%{margin-left: -200%; }
+    70%{margin-left: -200%; }
+    75%{margin-left: -300%; }
+    95%{margin-left: -300%; }
+    100%{margin-left: -400%; }
+
+}
+@media screen and (max-width: 820px){
+    .galery{
+        width: 90%;
+        height: 190px;
+    }
+    .galery .slide img{
+        width: 399px;
+    }
+    @keyframes animacao{
+        0% { margin-left: 0; }
+        20%{ margin-left: 0; }
+        25%{margin-left: -150%; }
+        45%{margin-left: -150%; }
+        50%{margin-left: -250%; }
+        70%{margin-left: -250%; }
+        75%{margin-left: -380%; }
+        95%{margin-left: -380%; }
+        100%{margin-left: -420%; }
+    
+    }
+ 
+}
+.imagens{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.clicar{
+    border: 2px dashed black;
+    cursor: pointer;
+    background-color: #4286f4;
+  
+}
+.prev{
+    display: inline-block;
+    background-color: brown;
+    text-align: left;
+    width: 18%;
+    border: 3px dashed black;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 820px) {
+    .prev{
+        width: 70px;
+    }
+    .imagens{
+        width: 69px;
+
+
+    }
+   
+}
+
